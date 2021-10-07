@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css" type="text/css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>SA | 흡연 구역 지도</title>
+</head>
+
+<body>
+    
+    <div class="header">    <!--상단바-->
+        <span class="nav">      <!--메뉴-->
+            <span class="menu">
+                <a href="#1"><span class="material-icons md-36">menu</span></a>
+                <ul class="sidebar">
+                    <a href="#6"><li>게시판</li></a>
+                    <a href="#7"><li>건의함</li></a>
+                </ul>
+            </span>
+        </span>
+        <span class="homepage">     <!--홈페이지-->
+            <a href="#2"><img src="image/svg/SA HOME.svg" alt="HomePage"></a>
+        </span>
+        <span class="aside">
+            <span class="login">    <!--로그인-->
+                <a href="#3">Login</a>
+            </span>
+            <span class="signup">   <!--회원가입-->
+                <a href="#4">SignUp</a>
+            </span>
+            <span class="chatting">     <!--채팅-->
+                <a href="#5"><i class="material-icons md-36"> chat</i></a>
+            </span>
+        </span>
+    </div>
+
+    <main>      <!--지도-->
+        <div class="map" id="map"></div>
+    </main>
+
+    <footer>        <!--하단바-->
+        <div>캡스톤디자인Ⅰ</div>
+        <div>육조</div>
+        <div>
+            <span>팀장 : 우윤하</span>
+            <span>발표 : 조환</span>
+            <span>자료 정리 : 송수현</span>
+            <span>PPT : 권오영</span>
+            <span>자료 수집 : 이채희 | 남현도</span>
+        </div>
+    </footer>
+
+    <script type="text/javascript" src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=0e1a42589efb9c2efa8fa389bba88a5b">
+    </script>
+    </script>
+    <script type="text/javascript" src="index.js">
+        //경일대 지도
+    </script>
+</body>
+
+</html>
